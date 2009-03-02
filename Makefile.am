@@ -53,11 +53,17 @@ DEFS					= -DLOCALEDIR="\"$(localedir)\"" @DEFS@
 # items to build
 bin_PROGRAMS				=
 include_HEADERS				=
-info_TEXINFOS				=
+info_TEXINFOS				= doc/readme.texi
 lib_LTLIBRARIES				=
 man_MANS				=
 sbin_PROGRAMS				=
 sysconf_DATA				=
+
+
+# macros for doc/readme.info
+doc_readme_TEXINFOS			= doc/readme.texi \
+					  doc/titlepage.texi \
+					  doc/version-readme.texi
 
 
 # miscellaneous lists

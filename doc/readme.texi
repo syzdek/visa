@@ -1,0 +1,50 @@
+\input texinfo @c -*-texinfo-*-
+@c %**start of header
+@c
+@c Visa Single Sign-on Web System
+@c Copyright (C) 2009 David M. Syzdek <syzdek@bindlebinaries.net>
+@c
+@c @VISA_DOC_COPYRIGHT_START@
+@c
+@c Permission is granted to copy, distribute and/or modify this document
+@c under the terms of the GNU Free Documentation License, Version 1.2
+@c or any later version published by the Free Software Foundation;
+@c with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+@c A copy of the license is included in the section entitled "GNU
+@c Free Documentation License".
+@c
+@c @VISA_DOC_COPYRIGHT_END@
+@c 
+@c doc/readme.texi - provides overview of VISA
+@c
+
+@setfilename readme.info
+@settitle README
+
+@c For double-sided printing, uncomment:
+@c @setchapternewpage odd
+@c %**end of header
+
+@include version-readme.texi
+
+@ifclear titlePageLoaded
+@include titlepage.texi
+@end ifclear
+
+@setchapternewpage off
+
+@ifnottex
+@node Top 
+@top README
+@menu
+* About: README About.
+@end menu
+@end ifnottex 
+
+@node README About
+@chapter About
+
+Blah Blah Blah
+
+
+@bye

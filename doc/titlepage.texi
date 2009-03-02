@@ -1,0 +1,62 @@
+@c
+@c Visa Single Sign-on Web System
+@c Copyright (C) 2009 David M. Syzdek <syzdek@bindlebinaries.net>
+@c
+@c @VISA_DOC_COPYRIGHT_START@
+@c
+@c Permission is granted to copy, distribute and/or modify this document
+@c under the terms of the GNU Free Documentation License, Version 1.2
+@c or any later version published by the Free Software Foundation;
+@c with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+@c A copy of the license is included in the section entitled "GNU
+@c Free Documentation License".
+@c
+@c @VISA_DOC_COPYRIGHT_END@
+@c 
+@c doc/titlepage.texi - common title page layout
+@c
+
+@set titlePageLoaded YES
+
+@set DOCSUBTITLE Visa Single Sign-on Web System
+
+@titlepage
+@title @thistitle
+@subtitle @value{DOCSUBTITLE}
+@subtitle version @value{EDITION}.
+@ifset SUBTITLE
+@subtitle @value{SUBTITLE}
+@end ifset
+
+@author David M. Syzdek
+
+
+@page
+@vskip 0pt plus 1filll
+Copyright @copyright{} 2009 David M. Syzdek <syzdek@@bindlebinaries.net>
+
+Permission is granted to copy, distribute and/or modify this document 
+under the terms of the GNU Free Documentation License, Version 1.2 
+or any later version published by the Free Software Foundation; 
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. 
+A copy of the license is included in the section entitled "GNU 
+Free Documentation License". 
+
+@end titlepage
+
+
+@c Put everything in one index (arbitrarily chosen to be the concept index).
+@syncodeindex vr cp
+@syncodeindex fn cp
+@syncodeindex tp cp
+@synindex pg cp
+
+@contents
+
+@page
+
+@headings off
+@everyfooting @thistitle @| @| page @thispage
+
+
+@c end of texi file
