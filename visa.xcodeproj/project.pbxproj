@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A0C733A90F5BAD1700E777FB /* configure.ac */ = {isa = PBXFileReference; explicitFileType = text.script; fileEncoding = 4; indentWidth = 3; path = configure.ac; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A0C733B70F5BAE3000E777FB /* acinclude.m4 */ = {isa = PBXFileReference; explicitFileType = text.script; fileEncoding = 4; indentWidth = 3; path = acinclude.m4; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A0C733C20F5BAFA200E777FB /* readme.texi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.texi; sourceTree = "<group>"; };
+		A0C733C30F5BAFA200E777FB /* titlepage.texi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = titlepage.texi; sourceTree = "<group>"; };
+		A0C733C90F5BB2F500E777FB /* visa.tags */ = {isa = PBXFileReference; explicitFileType = text.script; fileEncoding = 4; indentWidth = 3; path = visa.tags; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A0C733D50F5BB3B500E777FB /* Makefile.am */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; indentWidth = 8; path = Makefile.am; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A0C7338A0F5BA80D00E777FB = {
+			isa = PBXGroup;
+			children = (
+				A0C733B70F5BAE3000E777FB /* acinclude.m4 */,
+				A0C733A90F5BAD1700E777FB /* configure.ac */,
+				A0C733C10F5BAFA200E777FB /* doc */,
+				A0C733D50F5BB3B500E777FB /* Makefile.am */,
+				A0C733C90F5BB2F500E777FB /* visa.tags */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C733C10F5BAFA200E777FB /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				A0C733C20F5BAFA200E777FB /* readme.texi */,
+				A0C733C30F5BAFA200E777FB /* titlepage.texi */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A0C7338C0F5BA80D00E777FB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A0C7338F0F5BA80D00E777FB /* Build configuration list for PBXProject "visa" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = A0C7338A0F5BA80D00E777FB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A0C7338D0F5BA80D00E777FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A0C7338E0F5BA80D00E777FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C7338F0F5BA80D00E777FB /* Build configuration list for PBXProject "visa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C7338D0F5BA80D00E777FB /* Debug */,
+				A0C7338E0F5BA80D00E777FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C7338C0F5BA80D00E777FB /* Project object */;
+}
