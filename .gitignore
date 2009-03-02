@@ -1,3 +1,7 @@
+*.info
+*.la
+*.lo
+*.o
 Makefile
 Makefile.in
 aclocal.m4
@@ -10,3 +14,5 @@ config.status
 configure
 libtool
 stamp-h1
+stamp-vti
+version-*.texi
